@@ -11,14 +11,3 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     vertical-align: middle;
 
 }
-.footer{
-    position: fixed;
-    bottom: 0;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.footer > span{
-    font-weight: 300;
-    font-size: 1.1rem;
-}

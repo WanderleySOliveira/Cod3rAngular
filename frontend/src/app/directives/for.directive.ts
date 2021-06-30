@@ -5,10 +5,7 @@ import { Directive, Input, OnInit, TemplateRef, ViewContainerRef } from '@angula
 })
 export class ForDirective implements OnInit {
 
-  @Input('myForEm') numbers: number[] 
-
-
-
+  @Input('myForEm') numbers: number[]   
 
   constructor(
     private container: ViewContainerRef,

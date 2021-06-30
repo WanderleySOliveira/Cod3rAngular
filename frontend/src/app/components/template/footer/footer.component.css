@@ -1,0 +1,11 @@
+.footer{
+    position: fixed;
+    bottom: 0; /*Fizar o item na parte de baixo da tela.*/
+    display: flex; /**/
+    justify-content: flex-end; /*Definindo que o item ficara no final da tela e esquera*/
+}
+
+.footer > span{
+    font-weight: 300;
+    font-size: 1.1rem;
+}
